@@ -179,7 +179,11 @@ function lighthousetweaks_civicrm_themes(&$themes) {
  */
 function lighthousetweaks_civicrm_buildForm($formName, &$form) {
   if ($formName == 'CRM_Activity_Form_Activity') {
+    // Remove "positiveInteger" validation rule; for duration field;
+    // it's already a "number" which provides enough validation for float data.
     unset($form->_rules['duration']);
-    $form->_fields['duration']['attributes']['min'] = 0;
+    // Change duration minimum 0, to support values like 0.5.
+    $element = $form->getElement('duration');
+    $element->setAttribute('min', 0);
   }
 }
