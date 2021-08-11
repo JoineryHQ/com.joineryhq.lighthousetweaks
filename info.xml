@@ -1,26 +1,26 @@
 <?xml version="1.0"?>
 <extension key="com.joineryhq.lighthousetweaks" type="module">
   <file>lighthousetweaks</file>
-  <name>FIXME</name>
-  <description>FIXME</description>
+  <name>Lighthouse Tweaks</name>
+  <description>CiviCRM customizations for seeingindependence.org</description>
   <license>GPL-3.0</license>
   <maintainer>
-    <author>FIXME</author>
-    <email>FIXME</email>
+    <author>Allen Shaw, Joinery</author>
+    <email>allen@joineryhq.com</email>
   </maintainer>
   <urls>
-    <url desc="Main Extension Page">http://FIXME</url>
-    <url desc="Documentation">http://FIXME</url>
-    <url desc="Support">http://FIXME</url>
+    <url desc="Main Extension Page">https://github.com/JoineryHQ/com.joineryhq.lighthousetweaks</url>
+    <url desc="Documentation">https://github.com/JoineryHQ/com.joineryhq.lighthousetweaks</url>
+    <url desc="Support">https://github.com/JoineryHQ/com.joineryhq.lighthousetweaks/issues</url>
     <url desc="Licensing">http://www.gnu.org/licenses/gpl-3.0.html</url>
   </urls>
   <releaseDate>2021-08-11</releaseDate>
   <version>1.0</version>
-  <develStage>alpha</develStage>
+  <develStage>beta</develStage>
   <compatibility>
     <ver>5.0</ver>
   </compatibility>
-  <comments>This is a new, undeveloped module</comments>
+  <comments>Developed by Joinery for Lighthouse of the Big Bend</comments>
   <classloader>
     <psr4 prefix="Civi\" path="Civi"/>
   </classloader>
